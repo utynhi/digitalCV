@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  .avatar {
+    width: 30%;
+    height: 40px;
+  }
+
+  #job-info {
+    margin: 28px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+  #job-info .container {
+    border: 1px solid #0c8599;
+    border-radius: 16px;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  .chungchi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    padding-left: 24px;
+  }
+
+  .chungchi {
+    display: flex;
+    flex-direction: column;
+  }
+  .chungchi img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .project-nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .project-time {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 6px;
+  }
+  .project-nav div p {
+    margin-bottom: 0;
+  }
+}

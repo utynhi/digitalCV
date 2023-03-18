@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-h3 {
+  width: 32px;
+  height: 32px;
+}
+.member-icon {
+  flex: 1;
+  width: 24px;
+  height: 24px;
+}
+.project-charter {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 16px;
+  background-color: blueviolet;
+  border: 16px solid blueviolet;
+}
+.project-item {
+  background-color: rgb(244, 237, 252);
+  padding: 8px;
+}
+.goalses {
+  display: flex;
+  flex-direction: column;
+}
+.goal {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid blueviolet;
+  padding: 6px;
+}
+.goal-detail {
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+.member-detail {
+  margin-left: 8px;
+  flex: 3;
+}
+.member {
+  border: none;
+}
+
+.primarys {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+.primarys p {
+  flex: 3;
+}
+h2 {
+  color: blueviolet;
+  border-bottom: 1px solid blueviolet;
+  padding: 12px;
+}
+
+.scopes {
+  grid-row: 2 / 3;
+}
+.scope {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+}
+
+.out {
+  padding-left: 16px;
+}
+
+.primary {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.timeline {
+  grid-row: 1 /3;
+}
+
+.timeline-detail {
+  display: flex;
+  flex-direction: row;
+}
+.time-line {
+  border-bottom: 1.5px dashed blueviolet;
+  flex: 7;
+  padding: 8px;
+}
+.time {
+  width: 32px;
+  height: 32px;
+  border: 1px solid blueviolet;
+  border-radius: 100%;
+  background-color: rgb(190, 131, 244);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .project-charter {
+    display: flex;
+    flex-direction: column;
+  }
+  .scope {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+  }
+  .out {
+    padding: 8px 0;
+  }
+  .goal {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon-h3 {
+    margin: 0 auto;
+  }
+  .member-icon {
+    margin: 6px auto;
+  }
+  .member-detail {
+    margin-left: 24px;
+  }
+
+  .timeline-detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time {
+    margin: 6px 0 0 32px;
+    padding: 6px 0;
+    flex: 1;
+    padding: none;
+    height: 40px;
+  }
+}

@@ -1,0 +1,35 @@
+@media (max-width: 500px) {
+  .bar img {
+    width: 20%;
+  }
+  .bar {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10%;
+  }
+  #job-info {
+    margin: 28px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .chungchi-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .du-an {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .projects {
+    width: 100%;
+  }
+  .project-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 6px 0 0 8px;
+  }
+}
